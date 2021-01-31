@@ -1,0 +1,51 @@
+.test-table thead {
+    background-color: #6c7ae0;
+    color: white;
+}
+
+.test-table thead tr th,
+.test-table tbody tr td {
+    border: none;
+    padding-left: 30px;
+    height: 50px;
+    line-height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex: 1;
+}
+
+.test-table {
+    border-radius: 10px;
+    padding: 0;
+    border: none;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    display: block;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f6ff;
+}
+
+.test-table tbody, thead {
+    flex-direction: column;
+    display: flex;
+}
+
+.test-table tbody {
+    height: calc(100vh - 220px);
+    overflow: auto;
+}
+
+.test-table tr {
+    display: flex;
+}
+
+
+
+
+
+
